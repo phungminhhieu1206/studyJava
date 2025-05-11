@@ -1,0 +1,23 @@
+# Khái niệm cơ bản
+
+* Nguyên lý cơ bản của OOP:
+1. Abstraction
+2. Encapsulation
+3. Inheritance (Kế thừa: Xếp hạng thứ tự các mức trừu tượng vào cây)
+4. Polymorphism (Đa hình: Overroading, Overriding)
+
+* Nguyên lý trong java:
+Java file -(compile)-> byte code -(thông dịch với JVM)-> Mã máy tương thích với từng loại CPU
+JVM (máy ảo java): Tạo môi trường thực thi lệnh, nạp các file .class, quản lý bộ nhớ, dọn "rác"
+
+* Kiểu dữ liệu trong Java:
+Kiểu nguyên thủy (primitive): byte, short, int (4byte), long (8byte), float (4byte), double (8byte)
+
+* Phân biệt Process & Thread:
+- Process có không gian nhớ riêng
+- Thread sử dụng chung không gian nhớ, 1 process chứa nhiều threads
+
+Trong java có 2 loại: multiprocessing, multithreading nhưng thường sử dụng multithreading nhiều hơn do các luồng thì sử dụng chung vùng nhớ
+Exception ở 1 luồng không ảnh hưởng luồng khác
+
+
